@@ -1382,7 +1382,7 @@
 
         $(".exit").on("click touchstart", function(){
 
-            $("html, body").animate({ scrollTop: 0 }, 500);
+            $("html, body").stop().animate({ scrollTop: 0 }, 500);
             $(".exit").css({opacity: "0"});
             $(".mouse-info").css({opacity: 1});
 

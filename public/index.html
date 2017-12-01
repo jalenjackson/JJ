@@ -612,8 +612,14 @@
             }
 
             .logo h1 {
-                left: 10px;
+                left: 20px;
+                font-size: 20px;
+                top: 40px;
+                position: absolute !important;
+            }
 
+            .mouse-info {
+                display: none !important;
             }
 
             .slider div {
@@ -631,12 +637,54 @@
                 right: 10px;
             }
 
+            .navbar h1 {
+                font-size: 20px;
+            }
+
+            .exit {
+                position: absolute !important;
+                right: 16px;
+            }
+
             .underlay {
                 display: none;
             }
 
             .view-site h1 {
                 font-size: 40px !important;
+            }
+
+            .clicker {
+                background: rgba(0,0,0,0.2)
+            }
+
+            .clicker h1, .clicker p {
+                display: block !important;
+                font-size: 45px;
+                color: white;
+                font-family: "Helvetica Neue",sans-serif;
+                font-weight: 900;
+                text-align:center;
+                margin-top: 50px;
+            }
+
+            .clicker p {
+                font-size: 20px;
+                margin-top: -20px;
+            }
+
+            .slick-next, .slick-prev {
+                display: none !important;
+            }
+
+            .slider div {
+                background-size: 100% auto !important;
+            }
+            .slider {
+            }
+
+            .arb {
+                display: none !important;
             }
 
         }
@@ -746,6 +794,11 @@
             cursor: pointer;
         }
 
+        .clicker h1, .clicker p {
+            display: none;
+            transition: opacity 300ms ease-in-out;
+        }
+
     </style>
 </head>
 <body>
@@ -778,7 +831,7 @@
     <h1></h1>
 </div>
 <div class="logo">
-    <h1>JJ</h1>
+    <h1>JJ <br/><span style="font-size:12px; letter-spacing: 1px;">Fullstack Developer</span></h1>
 </div>
 <div class="navbar">
         <h1 onclick="window.location.href='/blog'" class="about">Blog</h1>
@@ -790,7 +843,10 @@
         <div class="project-margins">
             <div  style="background: url(girlface.png) center center no-repeat; background-size:cover;" class="project project1">
 
-                <div onclick="project1()" class="clicker"></div>
+                <div onclick="project1()" class="clicker">
+                    <h1>StoryMi</h1>
+                    <p>Build your amazing story</p>
+                </div>
 
                 <div class="text-container">
                     <h1></h1>
@@ -811,13 +867,13 @@
                         <div style="background: url(storymi6.png) center center no-repeat; background-size:cover;"></div>
                     </div>
 
-                    <div  class="view-site">
+                    <div  class="view-site arb">
                         <h1>Build</h1>
                     </div>
-                    <div  class="view-site">
+                    <div  class="view-site arb">
                         <h1>Your</h1>
                     </div>
-                    <div class="view-site">
+                    <div class="view-site arb">
                         <h1>Story</h1>
                     </div>
                     <a href="https://github.com/jalenjackson/storymi.com" target="_blank"><div class="view-site build">
@@ -826,7 +882,10 @@
                 </div>
             </div>
             <div  style="background: url(fitness-rut-boxing.png) center center no-repeat; background-size:cover;" class="project project2">
-                <div onclick="project2()" class="clicker"></div>
+                <div onclick="project2()" class="clicker">
+                    <h1>Modern Fitness</h1>
+                    <p>A Community dedicated to fitness</p>
+                </div>
 
                 <div class="text-container">
                     <h1></h1>
@@ -845,13 +904,13 @@
                         <div style="background: url(modern6.png) center center no-repeat; background-size:cover;"></div>
                     </div>
 
-                    <div  class="view-site view-site2">
+                    <div  class="view-site view-site2 arb">
                         <h1>Discover</h1>
                     </div>
-                    <div  class="view-site view-site2">
+                    <div  class="view-site view-site2 arb">
                         <h1>Modern</h1>
                     </div>
-                    <div class="view-site view-site2">
+                    <div class="view-site view-site2 arb">
                         <h1>Fitness</h1>
                     </div>
 
@@ -861,7 +920,10 @@
                 </div>
             </div>
             <div style="background: url(earth.png) center center no-repeat; background-size:cover;" class="project project3">
-                <div onclick="project3()" class="clicker"></div>
+                <div onclick="project3()" class="clicker">
+                    <h1>Chalkboard</h1>
+                    <p>A Community dedicated to educators</p>
+                </div>
 
                 <div class="text-container">
                     <h1></h1>
@@ -878,13 +940,13 @@
                         <div style="background: url(c4.png) center center no-repeat; background-size:cover;"></div>
                         <div style="background: url(c5.png) center center no-repeat; background-size:cover;"></div>
                     </div>
-                    <div  class="view-site view-site3">
+                    <div  class="view-site view-site3 arb">
                         <h1>Love</h1>
                     </div>
-                    <div  class="view-site view-site3">
+                    <div  class="view-site view-site3 arb">
                         <h1>To</h1>
                     </div>
-                    <div class="view-site view-site3">
+                    <div class="view-site view-site3 arb">
                         <h1>Learn</h1>
                     </div>
                     <a href="https://github.com/jalenjackson/Chalkboard" target="_blank"><div class="view-site view-site3 build">
@@ -893,7 +955,10 @@
                 </div>
             </div><br/>
             <div style="background: url(house.png) center center no-repeat; background-size:cover;" class="project project4">
-                <div onclick="project4()" class="clicker"></div>
+                <div onclick="project4()" class="clicker">
+                    <h1>Vanmar Lending</h1>
+                    <p>Buy your first home</p>
+                </div>
 
                 <div class="text-container">
                     <h1></h1>
@@ -911,13 +976,13 @@
                         <div style="background: url(v5.png) center center no-repeat; background-size:cover;"></div>
                         <div style="background: url(v6.png) center center no-repeat; background-size:cover;"></div>
                     </div>
-                    <div  class="view-site view-site2">
+                    <div  class="view-site view-site2 arb">
                         <h1>Buy</h1>
                     </div>
-                    <div  class="view-site view-site2">
+                    <div  class="view-site view-site2 arb">
                         <h1>A</h1>
                     </div>
-                    <div class="view-site view-site2">
+                    <div class="view-site view-site2 arb">
                         <h1>Home</h1>
                     </div>
                     <a href="https://github.com/jalenjackson/vanmar-lending" target="_blank"><div class="view-site view-site2 build">
@@ -926,7 +991,10 @@
                 </div>
             </div>
             <div style="background: url(ar.png) center center no-repeat; background-size:cover;" class="project project5">
-                <div onclick="project5()" class="clicker"></div>
+                <div onclick="project5()" class="clicker">
+                    <h1>GameCam</h1>
+                    <p>Augmented Reality</p>
+                </div>
 
                 <div class="text-container">
                     <h1></h1>
@@ -939,13 +1007,13 @@
                     <div class="slider">
                         <div style="background: url(augmented.jpg) center center no-repeat; background-size:cover;"></div>
                     </div>
-                    <div  class="view-site view-site3">
+                    <div  class="view-site view-site3 arb">
                         <h1>Discover</h1>
                     </div>
-                    <div  class="view-site view-site3">
+                    <div  class="view-site view-site3 arb">
                         <h1>Game</h1>
                     </div>
-                    <div class="view-site view-site3">
+                    <div class="view-site view-site3 arb">
                         <h1>Cam</h1>
                     </div>
                     <a href="https://github.com/jalenjackson/AugmentedReality" target="_blank"><div class="view-site view-site3 build">
@@ -954,7 +1022,10 @@
                 </div>
             </div>
             <div style="background: url(camera.png) center center no-repeat; background-size:cover;" class="project project6">
-                <div onclick="project6()" class="clicker"></div>
+                <div onclick="project6()" class="clicker">
+                    <h1>App Tutorial</h1>
+                    <p>Build a video sharing platform</p>
+                </div>
 
                 <div class="text-container">
                     <h1></h1>
@@ -967,13 +1038,13 @@
                     <div class="slider">
                         <div style="background: url(https://cdn-images-1.medium.com/max/2000/1*FYYeO7ZaS9bqe0D29vF5XA.jpeg) center center no-repeat; background-size:cover;"></div>
                     </div>
-                    <div  class="view-site ">
+                    <div  class="view-site arb ">
                         <h1>Build</h1>
                     </div>
-                    <div  class="view-site ">
+                    <div  class="view-site arb">
                         <h1>Your</h1>
                     </div>
-                    <div class="view-site ">
+                    <div class="view-site arb">
                         <h1>App</h1>
                     </div>
                     <a href="https://medium.com/@jalenjackson/develop-a-video-sharing-website-in-10-min-15b5921769e9" target="_blank"><div class="view-site build">
@@ -1237,6 +1308,10 @@
 <script>
 
 
+    if ($(window).width() < 800) {
+        $(".mouse-info").css({display: "none"});
+    }
+
         $(".clicker").click(function(){
        $(".mouse-info").css({opacity: 0});
        setTimeout(function(){
@@ -1247,6 +1322,14 @@
            transition: "all 500ms ease-in-out",
            opacity: "0",
        })
+    });
+
+
+    $(".project").on("click touchstart", function(){
+       $(".clicker").css({opacity: "0"})
+    });
+    $(".exit").on("click touchstart", function(){
+       $(".clicker").css({opacity: "1"});
     });
 
 
@@ -1268,10 +1351,20 @@
                 position: "absolute",
                 boxShadow: "none"
             });
-            $(".project1").animate({
-                left: $(".project1").parent().width() / 2 - $(".project1").width() / 2,
-                top: "70px"
-            }, 200);
+
+            if ($(window).width() > 800) {
+
+                $(".project1").animate({
+                    left: $(".project1").parent().width() / 2 - $(".project1").width() / 2,
+                    top: "70px"
+                }, 200);
+
+            } else {
+                $(".project1").animate({
+                    left:0,
+                    top: "70px"
+                }, 200);
+            }
 
             $("body").css({
                 background: "#7595b8"
@@ -1492,10 +1585,20 @@
                 position: "absolute",
                 boxShadow: "none"
             });
-            $(".project2").animate({
-                left: $(".project2").parent().width() / 2 - $(".project2").width() / 2,
-                top: "70px"
-            }, 200);
+
+            if ($(window).width() > 800) {
+
+                $(".project2").animate({
+                    left: $(".project2").parent().width() / 2 - $(".project2").width() / 2,
+                    top: "70px"
+                }, 200);
+
+            } else {
+                $(".project2").animate({
+                    left:0,
+                    top: "70px"
+                }, 200);
+            }
 
             $("body").css({
                 background: "#aa272c"
@@ -1715,10 +1818,19 @@
                 position: "absolute",
                 boxShadow: "none"
             });
-            $(".project3").animate({
-                left: $(".project3").parent().width() / 2 - $(".project3").width() / 2,
-                top: "70px"
-            }, 200);
+            if ($(window).width() > 800) {
+
+                $(".project3").animate({
+                    left: $(".project3").parent().width() / 2 - $(".project3").width() / 2,
+                    top: "70px"
+                }, 200);
+
+            } else {
+                $(".project3").animate({
+                    left:0,
+                    top: "70px"
+                }, 200);
+            }
 
             $("body").css({
                 background: "rgb(206,191,66)"
@@ -1939,10 +2051,19 @@
                 position: "absolute",
                 boxShadow: "none"
             });
-            $(".project4").animate({
-                left: $(".project4").parent().width() / 2 - $(".project4").width() / 2,
-                top: "60px"
-            }, 200);
+            if ($(window).width() > 800) {
+
+                $(".project4").animate({
+                    left: $(".project4").parent().width() / 2 - $(".project4").width() / 2,
+                    top: "70px"
+                }, 200);
+
+            } else {
+                $(".project4").animate({
+                    left:0,
+                    top: "70px"
+                }, 200);
+            }
 
             $("body").css({
                 background: "#aa272c"
@@ -2160,10 +2281,19 @@
                 position: "absolute",
                 boxShadow: "none"
             });
-            $(".project5").animate({
-                left: $(".project5").parent().width() / 2 - $(".project5").width() / 2,
-                top: "60px"
-            }, 200);
+            if ($(window).width() > 800) {
+
+                $(".project5").animate({
+                    left: $(".project5").parent().width() / 2 - $(".project5").width() / 2,
+                    top: "70px"
+                }, 200);
+
+            } else {
+                $(".project5").animate({
+                    left:0,
+                    top: "70px"
+                }, 200);
+            }
 
             $("body").css({
                 background: "rgb(206,191,66)"
@@ -2384,10 +2514,19 @@
                 position: "absolute",
                 boxShadow: "none"
             });
-            $(".project6").animate({
-                left: $(".project6").parent().width() / 2 - $(".project6").width() / 2,
-                top: "60px"
-            }, 200);
+            if ($(window).width() > 800) {
+
+                $(".project6").animate({
+                    left: $(".project6").parent().width() / 2 - $(".project6").width() / 2,
+                    top: "70px"
+                }, 200);
+
+            } else {
+                $(".project6").animate({
+                    left:0,
+                    top: "70px"
+                }, 200);
+            }
 
             $("body").css({
                 background: "#7595b8"

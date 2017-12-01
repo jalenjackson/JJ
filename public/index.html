@@ -1325,11 +1325,13 @@
     });
 
 
-    $(".project").on("click touchstart", function(){
+    $(".project").on("click", function(){
        $(".clicker").css({opacity: "0"})
     });
     $(".exit").on("click touchstart", function(){
-       $(".clicker").css({opacity: "1"});
+        setTimeout(function(){
+            $(".clicker").css({opacity: "1"});
+        },2000);
     });
 
 

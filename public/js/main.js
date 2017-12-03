@@ -135,6 +135,7 @@ function upperWidth(id, projectAnimation, bodyColorAnimation, clickerText1, clic
             margin: "auto",
             width: "100%",
             height: "100vh",
+
         });
 
 

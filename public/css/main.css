@@ -612,6 +612,10 @@ html,body {
         z-index: 99999999999999;
     }
 
+    .text900 {
+        font-size: 48px !important;
+    }
+
     ::-webkit-scrollbar
     {
         width: 0px;

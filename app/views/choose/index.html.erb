@@ -1,4 +1,118 @@
 <style>
+  .choose-message{
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    transition : all 400ms ease-in-out
+  }
+  .choose-story{
+    position: absolute;
+    top:0;
+    left:50%;
+    width:50%;
+    height:100%;
+    transition : all 400ms ease-in-out
+  }
+  .choose-story h1 {
+    color:black;
+    margin-top:100px;
+    pointer-events: none;
+  }
+  .choose-message h1 {
+    color:black;
+    margin-top:100px;
+  }
+  .shape{
+    width: 300px;
+    height: 140px;
+    border: 12px solid rgb(71,71,71);
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+  }
+  .choose-message >  h1 {
+    width: 300px;
+    height: 140px;
+    position:absolute; /*it can be fixed too*/
+    left:0px; right:0;
+    top:100px; bottom:0;
+    margin:auto;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+    font-weight: lighter;
+    z-index: 99999;
+    pointer-events: none;
+    transition: all 300ms ease-in-out;
+  }
+  .choose-story > h1{
+    width: 300px;
+    height: 140px;
+    position:absolute; /*it can be fixed too*/
+    left:0px; right:0;
+    top:100px; bottom:0;
+    margin:auto;
+    font-weight: lighter;
+    transition: all 300ms ease-in-out;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+  }
+  .choose-message:hover .shape {
+    border-radius: 100%;
+    height:300px;
+    border: 12px solid white;
+  }
+  .choose-message:hover {
+    background:  rgba(216,41,46,0.5);
+  }
+  .choose-message:hover h1{
+    color:white;
+  }
+  .choose-story:hover{
+    background: #37475c;
+  }
+  .choose-story:hover h1{
+    color:white;
+  }
+  .choose-story:hover .shape {
+    border-radius: 100%;
+    height:300px;
+    border: 12px solid white;
+  }
+  .shape:hover{
+    background:white;
+  }
+  .shape:hover ~ h1{
+    color:black;
+  }
+  .new-story{
+    background: url(http://vectorboom.com/Freebie/SeamlesPattern/02.jpg);
+    color:white;
+    text-align: center;
+    z-index: 9999999999999999;
+    position: absolute;
+    top:50px;
+    left:0;
+    width: 100%;
+  }
+  .h1-choose {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size:25px !important;
+    width:200px !important;
+    text-align: center !important;
+  }
 
   html,body {
     width: 100%;
@@ -39,12 +153,12 @@
   .navbar {
     position: fixed;
     right: 60px;
-    top: 10px;
+    top: 20px;
     z-index: 9999999;
   }
 
   .navbar h1 {
-    font-size: 15px;
+    font-size: 20px;
     color:black;
     font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
     text-transform: uppercase;
@@ -189,6 +303,24 @@
   @media only screen and (max-width: 800px){
 
 
+
+    .choose-message{
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:50%;
+      transition : all 400ms ease-in-out
+    }
+    .choose-story{
+      position: absolute;
+      top:50%;
+      left:0%;
+      width:100%;
+      height:50%;
+      transition : all 400ms ease-in-out
+    }
+
     .text p {
       font-size: 20px;
       margin: 0;
@@ -273,28 +405,38 @@
     letter-spacing: 1px;
   }
 
+    .footer ul li {
+      color: black;
+    }
+
+
 </style>
-<div class="center-h1">
-  <h1>BLOG</h1>
-</div>
+
 <div class="logo">
   <h1>JJ <br/><p style="font-size:12px;  letter-spacing: 1px;">Web Developer</p></h1>
 </div>
 <div class="navbar">
   <h1 onclick="window.location.href='/'" class="about">Home</h1>
-  <a href="/choose"><h1 class="contact">About Me</h1></a>
+  <a href="/blog" ><h1 class="contact">Blog</h1></a>
   <a href="https://github.com/jalenjackson" target="_blank"><h1 class="github">Github</h1></a>
   <a href="https://www.linkedin.com/in/jalen-jackson-20975b144/" target="_blank"><h1 class="contact">Linkedin</h1></a>
 
 </div>
-<div class="learn-boxes">
-  <a href="https://medium.com/@jalenjackson/develop-a-video-sharing-website-in-10-min-15b5921769e9" target="_blank"><div style="background: url(../images/firstlearn.png) center center no-repeat; background-size:cover;" class="learn">
-    <h1>Build A Video Sharing App</h1>
-  </div></a>
-  <a href="https://medium.com/@jalenjackson/sound-effects-can-dramatically-change-your-reading-experience-998c26c63548" target="_blank"><div style="width: 105%; background: url(../images/learn2.png) center center no-repeat; background-size:cover; " class="learn learn2">
-    <h1 style="width: 550px;">Why I Built A Story Sharing App</h1>
-  </div></a>
-</div>
+    <div class="choose-message">
+      <div onclick="window.location.href='/bio'" class="shape">
+      </div>
+      <h1 class="h1-choose">My Bio</h1>
+    </div>
+
+    <div class="choose-story">
+
+      <div onclick="window.location.href='/resume'"  class="shape">
+
+      </div>
+      <h1  class="h1-choose">My Resume</h1>
+
+    </div>
+
 <div class="footer">
   <ul>
     <li>678-205-9497 |</li>

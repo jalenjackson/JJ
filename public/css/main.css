@@ -274,11 +274,11 @@ html,body {
     opacity: 0;
     color:white;
     transform: scale(0.5);
-    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
-    -webkit-moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
-    -ms-moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
-    -o-moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
-    moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
+    transition: opacity 200ms ease-in-out, transform 500ms ease-in-out, background 200ms ease-in-out;
+    -webkit-moz-transition: opacity 300ms ease-in-out, transform 500ms ease-in-out, background 200ms ease-in-out;
+    -ms-moz-transition: opacity 300ms ease-in-out, transform 500ms ease-in-out, background 200ms ease-in-out;
+    -o-moz-transition: opacity 300ms ease-in-out, transform 500ms ease-in-out, background 200ms ease-in-out;
+    moz-transition: opacity 300ms ease-in-out, transform 500ms ease-in-out, background 200ms ease-in-out;
 }
 
 .exit:hover {

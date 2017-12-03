@@ -527,7 +527,7 @@ $(window).on("load", function(){
             transform: "translateY(50px)",
             opacity: "0"
         });
-    },6900);
+    },1200);
     setTimeout(function(){
         $(".intro").css({
             transition: "transform 500ms ease-in-out, opacity 500ms ease-in-out",
@@ -541,6 +541,6 @@ $(window).on("load", function(){
         $(".logo h1, .footer").css({
             opacity: "1"
         })
-    },7200)
+    },1500)
 
 });

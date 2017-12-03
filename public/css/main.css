@@ -3,6 +3,11 @@ html,body {
     height: 100%;
     margin: 0;
     transition: background 400ms ease-in-out;
+    -webkit-moz-transition:   background 400ms ease-in-out;
+    -ms-moz-transition:   background 400ms ease-in-out;
+    -o-moz-transition:  background 400ms ease-in-out;
+    moz-transition:  background 400ms ease-in-out;
+    -webkit-transition:  background 400ms ease-in-out;
     padding: 0;
     overflow-x: hidden;
     overflow: hidden;
@@ -25,6 +30,11 @@ html,body {
     position: relative;
     cursor: pointer;
     transition: opacity 500ms ease-in-out;
+    -webkit-moz-transition:  opacity 500ms ease-in-out;
+    -ms-moz-transition:  opacity 500ms ease-in-out;
+    -o-moz-transition: opacity 500ms ease-in-out;
+    moz-transition: opacity 500ms ease-in-out;
+    -webkit-transition: opacity 500ms ease-in-out;
 }
 
 .project-margins {
@@ -95,6 +105,11 @@ html,body {
     text-align: right;
     position: relative;
     transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    -webkit-moz-transition:  -webkit-moz-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    -ms-moz-transition:  -ms-moz-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    -o-moz-transition: -o-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    moz-transition: -moz-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    -webkit-transition: -webkit-transform 500ms ease-in-out, opacity 500ms ease-in-out;
 }
 
 .logo h1 {
@@ -125,6 +140,10 @@ html,body {
     width: 350px;
     opacity: 0;
     transition: width 500ms cubic-bezier(0.645, 0.045, 0.355, 1), opacity 500ms ease-in-out, background 500ms ease-in-out;
+    -webkit-moz-transition:  width 500ms cubic-bezier(0.645, 0.045, 0.355, 1), opacity 500ms ease-in-out, background 500ms ease-in-out;
+    -ms-moz-transition:  width 500ms cubic-bezier(0.645, 0.045, 0.355, 1), opacity 500ms ease-in-out, background 500ms ease-in-out;
+    -o-moz-transition: width 500ms cubic-bezier(0.645, 0.045, 0.355, 1), opacity 500ms ease-in-out, background 500ms ease-in-out;
+    moz-transition:  width 500ms cubic-bezier(0.645, 0.045, 0.355, 1), opacity 500ms ease-in-out, background 500ms ease-in-out;
 }
 
 .mouse-info h1 {
@@ -135,6 +154,10 @@ html,body {
     letter-spacing:1.2px;
     opacity: 1;
     transition: opacity 500ms ease-in-out;
+    -webkit-moz-transition: opacity 500ms ease-in-out;
+    -ms-moz-transition: opacity 500ms ease-in-out;
+    -o-moz-transition: opacity 500ms ease-in-out;
+    moz-transition: opacity 500ms ease-in-out;
 
 }
 
@@ -168,6 +191,9 @@ html,body {
     height: 100%;
     background:#000080;
     animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -webkit-animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -moz-animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -o-animation:moveNavAfters 1s  ease-in-out forwards 1;
 }
 .contact.changed2::after{
     content: "";
@@ -179,7 +205,9 @@ html,body {
     height: 100%;
     background:#BD2031;
     animation: moveNavAfters 1s  ease-in-out forwards 1;
-
+    -webkit-animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -moz-animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -o-animation:moveNavAfters 1s  ease-in-out forwards 1;
 
 }
 .github.changed3::after{
@@ -193,6 +221,9 @@ html,body {
     overflow: hidden;
     background:#EDB91F;
     animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -webkit-animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -moz-animation: moveNavAfters 1s  ease-in-out forwards 1;
+    -o-animation:moveNavAfters 1s  ease-in-out forwards 1;
 }
 
 @keyframes moveNavAfters {
@@ -244,6 +275,10 @@ html,body {
     color:white;
     transform: scale(0.5);
     transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
+    -webkit-moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
+    -ms-moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
+    -o-moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
+    moz-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out, background 500ms ease-in-out;
 }
 
 .exit:hover {
@@ -432,6 +467,11 @@ html,body {
     width: 0%;
     height: 100%;
     transition: width 500ms ease-in-out;
+    -webkit-moz-transition: width 500ms ease-in-out;
+    -ms-moz-transition: width 500ms ease-in-out;
+    -o-moz-transition: width 500ms ease-in-out;
+    moz-transition: width 500ms ease-in-out;
+    -webkit-transition: width 500ms ease-in-out;
     background: rgba(255,255,255,0.1);
     cursor: pointer;
 }
@@ -501,7 +541,10 @@ html,body {
     width: 0%;
     height: 100%;
     background:#000080;
-    animation: move-ani 500ms ease-in-out forwards infinite;
+    animation:  move-ani 500ms ease-in-out forwards infinite;
+    -webkit-animation:  move-ani 500ms ease-in-out forwards infinite;
+    -moz-animation:  move-ani 500ms ease-in-out forwards infinite;
+    -o-animation: move-ani 500ms ease-in-out forwards infinite;
 }
 .contact:hover::after {
     content: "";
@@ -513,6 +556,9 @@ html,body {
     height: 100%;
     background:#BD2031;
     animation: move-ani 500ms ease-in-out forwards infinite;
+    -webkit-animation:  move-ani 500ms ease-in-out forwards infinite;
+    -moz-animation:  move-ani 500ms ease-in-out forwards infinite;
+    -o-animation: move-ani 500ms ease-in-out forwards infinite;
 
 
 }
@@ -526,7 +572,9 @@ html,body {
     height: 100%;
     background:#EDB91F;
     animation: move-ani 500ms ease-in-out forwards infinite;
-
+    -webkit-animation:  move-ani 500ms ease-in-out forwards infinite;
+    -moz-animation:  move-ani 500ms ease-in-out forwards infinite;
+    -o-animation: move-ani 500ms ease-in-out forwards infinite;
 
 }
 
@@ -835,6 +883,11 @@ a {
     transform: translateY(30px);
     opacity: 0;
     transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+    -webkit-moz-transition: -webkit-moz-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    -ms-moz-transition:  -ms-moz-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    -o-moz-transition: -o-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    moz-transition:  -moz-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    -webkit-transition:  -webkit-transform 500ms ease-in-out, opacity 500ms ease-in-out;
 }
 
 
@@ -882,6 +935,11 @@ a {
     font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
     font-weight:900 !important;
     transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    -webkit-moz-transition: -webkit-moz-transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    -ms-moz-transition:  -ms-moz-transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    -o-moz-transition: -o-transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    moz-transition:  -moz-transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    -webkit-transition:  -webkit-transform 300ms ease-in-out, opacity 300ms ease-in-out;
 }
 .dud {
     color: #757575;
@@ -893,6 +951,11 @@ a {
 
 .logo h1 {
     transition: opacity 500ms ease-in-out;
+    -webkit-moz-transition:   opacity 500ms ease-in-out;
+    -ms-moz-transition:   opacity 500ms ease-in-out;
+    -o-moz-transition: opacity 500ms ease-in-out;
+    moz-transition:  opacity 500ms ease-in-out;
+    -webkit-transition:  opacity 500ms ease-in-out;
     opacity: 0;
     font-weight: 300 !important;
     font-size: 40px;
@@ -901,6 +964,11 @@ a {
 
 .footer {
     transition: opacity 500ms ease-in-out;
+    -webkit-moz-transition:   opacity 500ms ease-in-out;
+    -ms-moz-transition:   opacity 500ms ease-in-out;
+    -o-moz-transition: opacity 500ms ease-in-out;
+    moz-transition:  opacity 500ms ease-in-out;
+    -webkit-transition:  opacity 500ms ease-in-out;
     opacity: 0;
 }
 

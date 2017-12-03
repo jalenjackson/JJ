@@ -2,65 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35cb2f2f-e756-4007-ade8-9791f876ad8d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/resume.pdf" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/public/images/apple-touch-icon-precomposed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" afterPath="$PROJECT_DIR$/public/images/apple-touch-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ar-trans.png" afterPath="$PROJECT_DIR$/public/images/ar-trans.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ar.png" afterPath="$PROJECT_DIR$/public/images/ar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/augmented-reality-to-make-dreams-come-true-arco-video.jpg" afterPath="$PROJECT_DIR$/public/images/augmented-reality-to-make-dreams-come-true-arco-video.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/augmented.jpg" afterPath="$PROJECT_DIR$/public/images/augmented.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/c1.png" afterPath="$PROJECT_DIR$/public/images/c1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/c2.png" afterPath="$PROJECT_DIR$/public/images/c2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/c3.png" afterPath="$PROJECT_DIR$/public/images/c3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/c4.png" afterPath="$PROJECT_DIR$/public/images/c4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/c5.png" afterPath="$PROJECT_DIR$/public/images/c5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/camera-trans.png" afterPath="$PROJECT_DIR$/public/images/camera-trans.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/camera.png" afterPath="$PROJECT_DIR$/public/images/camera.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/earth-trans.png" afterPath="$PROJECT_DIR$/public/images/earth-trans.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/earth.png" afterPath="$PROJECT_DIR$/public/images/earth.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/firstlearn.png" afterPath="$PROJECT_DIR$/public/images/firstlearn.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fitness-rut-boxing-trans.png" afterPath="$PROJECT_DIR$/public/images/fitness-rut-boxing-trans.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fitness-rut-boxing.png" afterPath="$PROJECT_DIR$/public/images/fitness-rut-boxing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/girlface-trans.png" afterPath="$PROJECT_DIR$/public/images/girlface-trans.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/girlface.png" afterPath="$PROJECT_DIR$/public/images/girlface.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/house-trans.png" afterPath="$PROJECT_DIR$/public/images/house-trans.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/house.png" afterPath="$PROJECT_DIR$/public/images/house.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/learn2.png" afterPath="$PROJECT_DIR$/public/images/learn2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/logo.gif" afterPath="$PROJECT_DIR$/public/images/logo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/logo.png" afterPath="$PROJECT_DIR$/public/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/modern1.png" afterPath="$PROJECT_DIR$/public/images/modern1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/modern2.png" afterPath="$PROJECT_DIR$/public/images/modern2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/modern3.png" afterPath="$PROJECT_DIR$/public/images/modern3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/modern4.png" afterPath="$PROJECT_DIR$/public/images/modern4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/modern5.png" afterPath="$PROJECT_DIR$/public/images/modern5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/modern6.png" afterPath="$PROJECT_DIR$/public/images/modern6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/modernfitness.gif" afterPath="$PROJECT_DIR$/public/images/modernfitness.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/nev.png" afterPath="$PROJECT_DIR$/public/images/nev.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/newstory.gif" afterPath="$PROJECT_DIR$/public/images/newstory.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/secondlearn.png" afterPath="$PROJECT_DIR$/public/images/secondlearn.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymi-signin.png" afterPath="$PROJECT_DIR$/public/images/storymi-signin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymi1.png" afterPath="$PROJECT_DIR$/public/images/storymi1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymi2.png" afterPath="$PROJECT_DIR$/public/images/storymi2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymi3.png" afterPath="$PROJECT_DIR$/public/images/storymi3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymi4.png" afterPath="$PROJECT_DIR$/public/images/storymi4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymi5.png" afterPath="$PROJECT_DIR$/public/images/storymi5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymi6.png" afterPath="$PROJECT_DIR$/public/images/storymi6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymichoices.gif" afterPath="$PROJECT_DIR$/public/images/storymichoices.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymiconvo.gif" afterPath="$PROJECT_DIR$/public/images/storymiconvo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymifinishupload.gif" afterPath="$PROJECT_DIR$/public/images/storymifinishupload.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymisignup.png" afterPath="$PROJECT_DIR$/public/images/storymisignup.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/storymiupload1.gif" afterPath="$PROJECT_DIR$/public/images/storymiupload1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/v1.png" afterPath="$PROJECT_DIR$/public/images/v1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/v2.png" afterPath="$PROJECT_DIR$/public/images/v2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/v3.png" afterPath="$PROJECT_DIR$/public/images/v3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/v4.png" afterPath="$PROJECT_DIR$/public/images/v4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/v5.png" afterPath="$PROJECT_DIR$/public/images/v5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/v6.png" afterPath="$PROJECT_DIR$/public/images/v6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/woman-with-camera.png" afterPath="$PROJECT_DIR$/public/images/woman-with-camera.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blog/index.html.erb" afterPath="$PROJECT_DIR$/app/views/blog/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/transitions.css" afterPath="$PROJECT_DIR$/public/css/transitions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -80,7 +24,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -114,8 +58,8 @@
       <file leaf-file-name="transitions.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/transitions.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
+            <state relative-caret-position="240">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -124,8 +68,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="139" column="36" lean-forward="false" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+            <state relative-caret-position="219">
+              <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="12" selection-end-line="531" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -161,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="310" column="11" lean-forward="false" selection-start-line="310" selection-start-column="11" selection-end-line="310" selection-end-column="11" />
+              <caret line="192" column="13" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -209,8 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>transition:</find>
-      <find>animation</find>
       <find>mouse-</find>
       <find>projec</find>
       <find>mouse</find>
@@ -238,7 +180,9 @@
       <find>project</find>
       <find>navbar h1</find>
       <find>media</find>
+      <find>transition</find>
       <find>show</find>
+      <find>animation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,11 +200,11 @@
         <option value="$PROJECT_DIR$/public/main.css" />
         <option value="$PROJECT_DIR$/public/main.js" />
         <option value="$PROJECT_DIR$/public/js/words.js" />
-        <option value="$PROJECT_DIR$/public/css/transitions.css" />
         <option value="$PROJECT_DIR$/app/views/blog/index.html.erb" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/css/transitions.css" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
       </list>
     </option>
   </component>
@@ -619,12 +563,12 @@
       <workItem from="1511833780061" duration="48861000" />
       <workItem from="1512147451974" duration="38000" />
       <workItem from="1512191376276" duration="15949000" />
-      <workItem from="1512239831407" duration="14321000" />
+      <workItem from="1512239831407" duration="17689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82637000" />
+    <option name="totallyTimeSpent" value="86005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="44" width="1280" height="712" extended-state="0" />
@@ -1044,30 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="310" column="11" lean-forward="false" selection-start-line="310" selection-start-column="11" selection-end-line="310" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/transitions.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="139" column="36" lean-forward="false" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1094,6 +1014,30 @@
             <element signature="n#style#0;n#div#1;n#div#2;n#div#5;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#div#5;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="12" selection-end-line="531" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/transitions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="192" column="13" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

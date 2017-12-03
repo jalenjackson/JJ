@@ -100,6 +100,10 @@ function upperWidth(id, projectAnimation, bodyColorAnimation, clickerText1, clic
     setTimeout(function(){
         $(".clicker h1").css({
             transition: "transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            WebkitTransition: "-webkit-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            MozTransition:"-moz-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            MsTransition:"-ms-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            OTransition:"-o-transform 500ms ease-in-out, opacity 500ms ease-in-out",
             transform: "translateY(0px)",
             opacity: "1"
         });
@@ -108,6 +112,10 @@ function upperWidth(id, projectAnimation, bodyColorAnimation, clickerText1, clic
     setTimeout(function(){
         $(".clicker h1").css({
             transition: "transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            WebkitTransition: "-webkit-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            MozTransition:"-moz-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            MsTransition:"-ms-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            OTransition:"-o-transform 500ms ease-in-out, opacity 500ms ease-in-out",
             transform: "translateY(30px)",
             opacity: "0"
         });
@@ -136,6 +144,10 @@ function upperWidth(id, projectAnimation, bodyColorAnimation, clickerText1, clic
     setTimeout(function(){
         $(".clicker h1").css({
             transition: "opacity 500ms ease-in-out",
+            WebkitTransition: "opacity 500ms ease-in-out",
+            MozTransition:"opacity 500ms ease-in-out",
+            MsTransition:"opacity 500ms ease-in-out",
+            OTransition:"opacity 500ms ease-in-out",
             fontSize: "150px",
             transform: "translateY(50px)",
             opacity: "1"
@@ -345,6 +357,10 @@ $(".project1").hover(function(){
     setTimeout(function(){
         $(".mouse-info h1").css({
             transition: "opacity 500ms ease-in-out",
+            WebkitTransition: "opacity 500ms ease-in-out",
+            MozTransition:"opacity 500ms ease-in-out",
+            MsTransition:"opacity 500ms ease-in-out",
+            OTransition:"opacity 500ms ease-in-out",
             opacity: "1",
         });
 
@@ -369,6 +385,10 @@ $(".project2").hover(function(){
     setTimeout(function(){
         $(".mouse-info h1").css({
             transition: "opacity 500ms ease-in-out",
+            WebkitTransition: "opacity 500ms ease-in-out",
+            MozTransition:"opacity 500ms ease-in-out",
+            MsTransition:"opacity 500ms ease-in-out",
+            OTransition:"opacity 500ms ease-in-out",
             opacity: "1"
         });
     },400);
@@ -394,6 +414,10 @@ $(".project3").hover(function(){
     setTimeout(function(){
         $(".mouse-info h1").css({
             transition: "opacity 500ms ease-in-out",
+            WebkitTransition: "opacity 500ms ease-in-out",
+            MozTransition:"opacity 500ms ease-in-out",
+            MsTransition:"opacity 500ms ease-in-out",
+            OTransition:"opacity 500ms ease-in-out",
             opacity: "1"
         });
     },400);
@@ -416,6 +440,10 @@ $(".project4").hover(function(){
     setTimeout(function(){
         $(".mouse-info h1").css({
             transition: "opacity 500ms ease-in-out",
+            WebkitTransition: "opacity 500ms ease-in-out",
+            MozTransition:"opacity 500ms ease-in-out",
+            MsTransition:"opacity 500ms ease-in-out",
+            OTransition:"opacity 500ms ease-in-out",
             opacity: "1"
         });
     },400);
@@ -438,6 +466,10 @@ $(".project5").hover(function(){
     setTimeout(function(){
         $(".mouse-info h1").css({
             transition: "opacity 500ms ease-in-out",
+            WebkitTransition: "opacity 500ms ease-in-out",
+            MozTransition:"opacity 500ms ease-in-out",
+            MsTransition:"opacity 500ms ease-in-out",
+            OTransition:"opacity 500ms ease-in-out",
             opacity: "1"
         });
     },400);
@@ -460,6 +492,10 @@ $(".project6").hover(function(){
     setTimeout(function(){
         $(".mouse-info h1").css({
             transition: "opacity 500ms ease-in-out",
+            WebkitTransition: "opacity 500ms ease-in-out",
+            MozTransition:"opacity 500ms ease-in-out",
+            MsTransition:"opacity 500ms ease-in-out",
+            OTransition:"opacity 500ms ease-in-out",
             opacity: "1",
         });
 
@@ -494,6 +530,10 @@ $(window).on("load", function(){
     setTimeout(function(){
         $(".intro").css({
             transition: "transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            WebkitTransition: "-webkit-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            MozTransition:"-moz-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            MsTransition:"-ms-transform 500ms ease-in-out, opacity 500ms ease-in-out",
+            OTransition:"-o-transform 500ms ease-in-out, opacity 500ms ease-in-out",
             opacity: "0",
             pointerEvents:"none"
         });

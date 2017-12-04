@@ -520,6 +520,7 @@ $(".project").hover(function(){
 });
 
 
+
 $(window).on("load", function(){
 
     setTimeout(function(){
@@ -544,3 +545,4 @@ $(window).on("load", function(){
     },1500)
 
 });
+

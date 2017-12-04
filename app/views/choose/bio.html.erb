@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
 
-    background: rgb(240,240,240)
   }
 
     .main-panel {
@@ -52,19 +51,22 @@
 
 
   .navbar {
-    position: fixed;
     right: 60px;
     top: 20px;
     z-index: 9999999;
+    position: absolute !important;
+
   }
 
   .navbar h1 {
-    font-size: 20px;
-    color:black;
-    font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    font-size: 13px;
+    color:white;
+    font-family: "Montserrat", Helvetica, Arial, Sans-Serif;
     text-transform: uppercase;
     line-height: 23px;
     text-align: right;
+    font-weight: 300;
+    letter-spacing: 2px;
     position: relative;
     transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
   }
@@ -203,6 +205,30 @@
   @media only screen and (max-width: 800px){
 
 
+
+
+    .col {
+      width: 100% !important;
+      display: block !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .col p {
+      margin-left: 10px !important;
+    }
+
+    .top-panel h1 {
+      font-size: 14px !important;
+      margin: 0 !important;
+      margin-top: 170px !important;
+    }
+
+    .grid {
+      display: block !important;
+      margin: 0 !important;
+    }
+
     .text p {
       font-size: 20px;
       margin: 0;
@@ -331,6 +357,204 @@
     }
 
   }
+
+    .top-panel {
+      width: 100%;
+      height: 100%;
+      background:black;
+      overflow: hidden;
+    }
+
+    .img-inside {
+      width: 100%;
+      height: 450px;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      margin: auto;
+      overflow: hidden;
+      background:red;
+    }
+
+    .img-inside::after {
+      position: absolute;
+      content: '';
+      display: block;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      background:linear-gradient(black, rgba(0,0,0,0.1));
+    }
+
+    .img-inside h1 {
+      text-align:center;
+      font-size:30px;
+      font-family: "Montserrat", Helvetica, Arial, Sans-Serif;
+      color:white;
+      margin-left: 100px;
+      margin-right: 100px;
+      font-weight: bold;
+      line-height: 60px;
+      margin-top: 170px;
+      opacity: 0;
+      text-transform: uppercase;
+      font-weight: 100;
+      animation: show-h1 500ms ease-in-out forwards 1 1s;
+
+    }
+
+    .btn2 {
+      display: block;
+      margin: 0 auto;
+      width: 230px;
+      height: 40px;
+      border-radius: 2em;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size:13px;
+      font-family: Montserrat,sans-serif;
+      border: 2px solid #fc2753;
+      background: none;
+      text-transform: uppercase;
+      transform: translateY(50px);
+      margin-top: 30px;
+      position: absolute;
+      bottom: 100px;
+      left: 0;
+      right: 0;
+      transition: background 300ms ease-in-out, width 300ms ease-in-out;
+      cursor: pointer;
+
+    }
+
+    .btn2:hover {
+      background: #fc2753;
+      width: 290px;
+    }
+
+    .overlay33 {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background:black;
+      animation: slide 1.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards 1;
+    }
+
+    @keyframes slide {
+      0%{
+        height: 100%;
+      }
+      100%{
+        height: 0;
+      }
+    }
+
+    @keyframes show-h1 {
+      0%{
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateY(0px);
+      }
+
+    }
+
+    .info-panel {
+      width: 100%;
+      height: 100%;
+      background:white;
+    }
+
+
+
+
+
+
+  .fluid-flex img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 5px 0 50px;
+    border-radius:.2em;
+  }
+
+  a.more {
+    text-decoration: none;
+    font-size: .7em;
+    float: right;
+    display: block;
+    padding: 50px 20px;
+    color: #333;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #01c59f;
+  }
+
+  .grid {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .col {
+    padding: 30px;
+  }
+
+  .fluid-flex {
+    -webkit-flex: 1;
+    flex: 1; /* Not supported by Safari */
+  }
+
+    .my-bio {
+      font-size: 40px;
+      color: black;
+      font-family: Montserrat,sans-serif;
+      text-align: center;
+      margin-top: 40px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .my-bio-p {
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      font-family: Montserrat,sans-serif;
+      text-align: center;
+      margin-top: 40px;
+      font-weight: 400;
+      letter-spacing: 1px;
+
+    }
+
+
+    .fluid-flex h1 {
+      font-size: 15px;
+      color: black;
+      font-family: Montserrat,sans-serif;
+      text-align: center;
+      margin-top: 40px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .fluid-flex p {
+      font-size: 12px;
+      color: black;
+      font-family: Montserrat,sans-serif;
+      text-align: left
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin-top: -20px;
+    }
 </style>
 
 <div class="logo">
@@ -346,31 +570,140 @@
 </div>
 
 
-<div class="main-panel">
-  <h1>BIO</h1>
-  <ul>
-    <li><span style="color: grey">•</span> 5 years experience building full stack dynamic web applications</li>
-    <li><span style="color: grey">•</span> Capable of implementing advanced transitions and web animations with CSS and or jQuery</li>
-    <li><span style="color: grey">•</span> Mastery of HTML, CSS, Javascript, and Ruby On Rails</li>
-    <li><span style="color: grey">•</span> Skilled with responsive web design, and cross browser compatibility</li>
-    <li><span style="color: grey">•</span> Strong knowledge of best design trends and implementing user focused solutions</li>
-    <li><span style="color: grey">•</span> Strong knowledge of implementing a successful production environment</li>
-    <li><span style="color: grey">•</span> Excellent with utilizing RESTful web services such as the Stripe API along with the StripeConnect API</li>
-    <li><span style="color: grey">•</span> Experience storing data from a JSON returned API call into a database</li>
-    <li><span style="color: grey">•</span> Experience utilizing API’s across a network of users</li>
-    <li><span style="color: grey">•</span> Knowledge of amazon web services such as amazon s3</li>
-    <li><span style="color: grey">•</span> Experience leading the development of a an application predicted to earn 1 million dollars+ insales</li>
-    <li><span style="color: grey">•</span> Experience building a social network</li>
-    <li><span style="color: grey">•</span> Strong knowledge of DNS management</li>
-    <li><span style="color: grey">•</span> Experience leading a team of developers in the development of a multitude of applications • Experience with taking on the role of building a web application alone</li>
-    <li><span style="color: grey">•</span> Consistently finishing projects ahead of schedule</li>
-    <li><span style="color: grey">•</span> Consistently producing beautiful UI/UX solutions</li>
-    <li><span style="color: grey">•</span> Strong accuracy of converting design mockups to workable web sites</li>
-    <li><span style="color: grey">•</span> Strong knowledge of the Heroku platform</li>
-    <li><span style="color: grey">•</span> Experience working with large amounts of data, and developing large scale applications</li>
-    <li><span style="color: grey">•</span> Experience Working with project management tools such as JIRA</li>
-    <li><span style="color: grey">•</span> Experience Working with project management tools such as JIRA</li>
-    <li><span style="color: grey">•</span> Experience Working with project management tools such as JIRA</li>
+<div class="top-panel">
+  <div style="background: linear-gradient(rgba(0,0,0,0.1), black), url(../images/collage2.png) center center no-repeat; background-size:cover;" class="img-inside">
+    <h1>I am a Lead Web Developer with a strong passion for building beautiful full stack dynamic web applications</h1>
+    <div class="overlay33"></div>
+  </div>
 
-  </ul>
+  <a href="mailto:jalenjack201@hotmail.com?Subject=Hello%20Jalen!" target="_top"><button class="btn2">I Am available for hire</button></a>
+
+</div>
+
+<div class="info-panel">
+
+  <h1 class="my-bio">My Bio</h1>
+  <p class="my-bio-p">I have experience in all phases of the development process</p>
+
+  <div class="grid">
+    <div class="col fluid-flex">
+      <h1>High Profit Applications</h1>
+      <img src="https://udemy-images.udemy.com/course/750x422/390866_7f55_3.jpg" alt="Image" title="Image" />
+      <p>Experience leading the development of a an application predicted to earn 1 million dollars+ in
+        sales
+    </div>
+    <div class="col fluid-flex">
+      <h1>Transitions And Animations </h1>
+      <img src="https://s3.amazonaws.com/university-prod/uploads/attachments/354/original/motion.png?1444883111" alt="Image" title="Image" />
+      <p>Capable of implementing advanced transitions and web animations with CSS and or jQuery</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Mastery of a variety of languages</h1>
+      <img src="https://udemy-images.udemy.com/course/750x422/10681_968c_6.jpg" alt="Image" title="Image" />
+      <p>Mastery of HTML, CSS, Javascript, and Ruby On Rails</p>
+    </div>
+</div>
+
+
+
+
+  <div class="grid">
+    <div class="col fluid-flex">
+      <h1>Responsive Web Design</h1>
+      <img src="https://www.eduonix.com/aDmiN_050716/public/uploads/headerimages/20170301155447.jpg" alt="Image" title="Image" />
+      <p>Skilled with responsive web design, and cross browser compatibility.</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Design Trends </h1>
+      <img src="https://www.propointgraphics.com/wp-content/uploads/2016/04/Hero_MAIN-1024x595.jpg" alt="Image" title="Image" />
+      <p>Strong knowledge of best design trends and implementing user focused solutions</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Production Enviorments</h1>
+      <img src="http://www.customsoftwarelab.com/wp-content/uploads/2016/03/top-web-development-tools-every-developer-should-use.jpg" alt="Image" title="Image" />
+      <p>Strong knowledge of implementing a successful production environment</p>
+    </div>
+  </div>
+
+
+
+  <div class="grid">
+    <div class="col fluid-flex">
+      <h1>RESTful web services</h1>
+      <img src="https://stripe.com/img/v3/home/social.png" alt="Image" title="Image" />
+      <p>Excellent with utilizing RESTful web services such as the Stripe API along with the Stripe
+        Connect API</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Storing API Data </h1>
+      <img src="https://www.kumulos.com/wp-content/uploads/2010/08/database.jpeg" alt="Image" title="Image" />
+      <p>Experience storing data from a JSON returned API call into a database</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>API across users</h1>
+      <img src="https://marketingland.com/wp-content/ml-loads/2015/10/YPS_1510_WC151015_facebook_1920-800x450.jpg" alt="Image" title="Image" />
+      <p>Experience utilizing API’s across a network of users</p>
+    </div>
+  </div>
+
+
+
+  <div class="grid">
+    <div class="col fluid-flex">
+      <h1>Amazon Web Services</h1>
+      <img src="http://vamsystems.com/Images/ContentImages/2015/1/amazon_web_services.jpg" alt="Image" title="Image" />
+      <p>Knowledge of amazon web services such as amazon s3</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>5 years experience</h1>
+      <img src="http://www.seoservicesuk.me/wp-content/uploads/2017/08/Common-Coding-Languages-for-Web-Development.jpg" alt="Image" title="Image" />
+      <p>5 years experience building full stack dynamic web applications</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>DNS Management</h1>
+      <img src="https://img1.wsimg.com/Sitecore/9/D/share-godaddy-domains.jpg" alt="Image" title="Image" />
+      <p> Strong knowledge of DNS management</p>
+    </div>
+  </div>
+
+
+
+  <div class="grid">
+    <div class="col fluid-flex">
+      <h1>Leading Other Developers</h1>
+      <img src="https://www.quickbase.com/blog/wp-content/uploads/sites/2/2015/09/How-to-Establish-Yourself-as-a-Thought-Leader-in-Your-Field.jpg" alt="Image" title="Image" />
+      <p> Experience leading a team of developers in the development of a multitude of applications • Experience with taking on the role of building a web application alone</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Project Management </h1>
+      <img src="https://atlassian.design/uploads/guidelines/brand/logos/logo-guideline-27@2x.png" alt="Image" title="Image" />
+      <p>Experience Working with project management tools such as JIRA</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Meeting Deadlines</h1>
+      <img src="https://c.tadst.com/gfx/1200x630/fb-worldclocks.png?1" alt="Image" title="Image" />
+      <p>Consistently finishing projects ahead of schedule</p>
+    </div>
+  </div>
+
+
+
+  <div class="grid">
+    <div class="col fluid-flex">
+      <h1>100% Accuracy</h1>
+      <img src="https://images.contentful.com/6m9bd13t776q/2sFyyD6Glis2UCycyisuSa/46e1112d3cc8e8d4a4b3020c66f37103/how-accurate-home-pregnancy-test-2600x1200.jpg?q=75" alt="Image" title="Image" />
+      <p>Strong accuracy of converting design mockups to workable web sites</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Heroku</h1>
+      <img src="https://zimmergren.net/content/images/2016/09/herokulogo.png" alt="Image" title="Image" />
+      <p>Strong knowledge of the Heroku platform</p>
+    </div>
+    <div class="col fluid-flex">
+      <h1>Social Networks</h1>
+      <img src="https://stocknews.com/wp-content/uploads/2017/07/facebook-fb-alternate.jpg" alt="Image" title="Image" />
+      <p>Experience building a social network</p>
+    </div>
+  </div>
+
 </div>

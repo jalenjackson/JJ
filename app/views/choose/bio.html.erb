@@ -219,7 +219,6 @@
     }
 
     .top-panel h1 {
-      font-size: 14px !important;
       margin: 0 !important;
       margin-top: 170px !important;
     }
@@ -303,6 +302,7 @@
     font-weight: 300 !important;
     font-size: 40px;
     top: 10px;
+    color:white;
   }
 
   .footer {
@@ -340,6 +340,8 @@
       transform: translateY(17px);
     }
 
+
+
   @media only screen and (max-width: 800px) {
     .main-panel ul li {
     }
@@ -356,6 +358,27 @@
       font-size: 14px;
     }
 
+
+    .heading {
+      position: absolute;
+      left: 0 !important;
+      right: 0 !important;
+      top: 30px !important;
+      bottom: 0 !important;
+      margin: auto;
+      text-align: center;
+      font-size: 40px !important;
+    }
+
+    .btn2 {
+      left: 0 !important;
+      right: 0 !important;
+      display: block;
+      width: 80% !important;
+      margin: 0 !important;
+      margin: 0 auto !important;
+
+    }
   }
 
     .top-panel {
@@ -367,7 +390,7 @@
 
     .img-inside {
       width: 100%;
-      height: 450px;
+      height: 90%;
       position: absolute;
       top:0;
       bottom: 0;
@@ -384,7 +407,7 @@
       left:0;
       width: 100%;
       height: 100%;
-      background:linear-gradient(black, rgba(0,0,0,0.1));
+      background:linear-gradient(black, rgba(0,0,0,0.05));
     }
 
     .img-inside h1 {
@@ -418,15 +441,16 @@
       border: 2px solid #fc2753;
       background: none;
       text-transform: uppercase;
-      transform: translateY(50px);
       margin-top: 30px;
       position: absolute;
-      bottom: 100px;
-      left: 0;
-      right: 0;
+      top:65vh;
+      left: 150px;
+      opacity: 0;
+      transform: translateX(-50px);
       transition: background 300ms ease-in-out, width 300ms ease-in-out;
       cursor: pointer;
 
+      animation: move-left 1s ease-in-out forwards 1 100ms;
     }
 
     .btn2:hover {
@@ -441,15 +465,16 @@
       width: 100%;
       height: 100%;
       background:black;
+      opacity: 1;
       animation: slide 1.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards 1;
     }
 
     @keyframes slide {
       0%{
-        height: 100%;
+        opacity: 1;
       }
       100%{
-        height: 0;
+        opacity: 0;
       }
     }
 
@@ -555,6 +580,32 @@
       letter-spacing: 1px;
       margin-top: -20px;
     }
+
+    .heading {
+      position: absolute;
+      top: 30vh;
+      color: white;
+      font-size: 100px;
+      z-index: 9999999999;
+      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+      font-weight: 900;
+      font-size: 70px;
+      margin-left: 150px;
+      transform: translateX(-50px);
+      opacity: 0;
+      animation: move-left 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1 forwards;
+    }
+
+    @keyframes move-left {
+      0%{
+        transform: translateX(-50px);
+        opacity: 0;
+      }
+      100%{
+        transform :translateX(0px);
+        opacity: 1;
+      }
+    }
 </style>
 
 <div class="logo">
@@ -571,10 +622,11 @@
 
 
 <div class="top-panel">
-  <div style="background: linear-gradient(rgba(0,0,0,0.1), black), url(../images/collage2.png) center center no-repeat; background-size:cover;" class="img-inside">
-    <h1>I am a Lead Web Developer with a strong passion for building beautiful full stack dynamic web applications</h1>
+  <div style="background: linear-gradient(rgba(0,0,0,0.05), black), url(https://photoserge.com/dailytips/image.axd?picture=/TIP%20133%20How%20to%20make%20a%20double%20exposure%20in%20Photoshop/5.JPG) center center no-repeat; background-size:cover;" class="img-inside">
     <div class="overlay33"></div>
   </div>
+  <h1 class="heading">Passionate <br/> Web Developer</h1>
+
 
   <a href="mailto:jalenjack201@hotmail.com?Subject=Hello%20Jalen!" target="_top"><button class="btn2">I Am available for hire</button></a>
 

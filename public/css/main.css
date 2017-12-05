@@ -14,6 +14,14 @@ html,body {
     -webkit-overflow-scrolling: touch;
 
 }
+.footer ul img {
+    height: 20px;
+    width: auto;
+    border-radius: 100%;
+    margin-left: 10px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
 .project-container {
     width: 100%;
     height: 100%;
